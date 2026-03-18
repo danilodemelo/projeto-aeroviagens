@@ -1,12 +1,131 @@
- header {
- 
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
- }
 
- header image {
-    display: flex;
-    align-items: center;
-    
- }
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap');
+
+
+
+* {
+   text-decoration: none;
+   list-style: none;
+   background-color: rgb(231, 231, 231);
+   font-family: Google Sans;
+}
+
+p {
+   font-size: 22px;
+   font-weight: 400;
+}
+
+h2 {
+   color: #7598f8;
+   font-size: 40px;
+}
+.realslogan {
+   color: #7598f8;
+   font-size: 50px;
+   text-align: center;
+   
+}
+header {
+   background-color: rgb(231, 231, 231);
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 10px;
+
+   position: sticky;
+   /* Faz com que o elemento fique "grudado" na tela quando o usuário rolar a página */
+   top: 0;
+   /* Define que o elemento ficará preso ao topo da tela (0px de distancia do topo) */
+   left: 0; 
+   /* Define o alinhamento á esquerda da página, mantendo 0px de distancia */
+   z-index: 1; 
+   /* Controla a sobreposição do elemento sobre outro elemento da pagina */
+
+   box-shadow: #7598f8 8px 8px 8px;
+   text-decoration: none;
+   list-style: none;
+ 
+}
+
+.encontrar {
+   font-size: 40px;
+   color: #7598f8;
+}
+
+.cor {
+   color: #7598f8;
+   font-size: 50px;
+}
+
+tr {
+   color:#7598f8
+}
+
+ header h1 {
+   text-align: center;
+   margin-right: 60px;
+   color: #7598f8;
+   
+}
+
+.tabela p {
+font-size: 40px;
+}
+.span {
+   color: #7598f8;
+}
+header img {
+   width: 100px;
+   border-radius: 25px;
+} 
+
+header nav a {
+   margin: 6px;
+   font-size: 18px;
+   color: black;
+
+}
+.tabela {
+   background-color: rgb(231, 231, 231);
+}
+.paragrafo {
+   background-color: rgb(231, 231, 231);
+}
+ul {
+   display: flex;
+   gap: 20px;
+}
+
+li {
+   list-style: none;
+}
+
+.bia {
+   justify-content: center;
+   align-items: center;
+   display: flex;
+   gap: 30px;
+}
+
+.imagembia {
+   width: 500px;
+}
+
+.botao {
+   background-image: url(imagens/aeroporto.png);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+   padding: 180px;
+   display: flex;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+}
+
+.botao button {
+  color: #7598f8;
+  background-color: rgb(231, 231, 231);
+  padding: 15px;
+}
