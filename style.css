@@ -47,11 +47,20 @@ header {
  
 }
 
+ul :hover {
+  color: #7598f8;
+   transform: scale(1.2);
+}
+
 .encontrar {
    font-size: 40px;
    color: #7598f8;
 }
 
+.corzinha {
+   color: #7598f8;
+   font-size: 50px;
+}
 .cor {
    color: #7598f8;
    font-size: 50px;
@@ -111,21 +120,86 @@ li {
    width: 500px;
 }
 
+.servicos {
+   text-align: center;
+   padding: 40px;
+}
+
+.servicos-container {
+   display: flex;
+   justify-content: center;
+   gap: 40px;
+   margin-top: 20px;
+}
+
+.servico {
+   width: 250px;
+}
+
+.servico i {
+   font-size: 40px;
+   color: #7598f8;
+}
+
+.cristiano {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 40px;
+}
+
+.cristianoimg img {
+   max-width: 1000px;
+   height: auto;
+}
+
+.cr7color {
+   color: #7598f8;
+   font-size: 50px;
+}
 .botao {
    background-image: url(imagens/aeroporto.png);
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
    background-attachment: fixed;
-   padding: 180px;
+   padding: 100px;
    display: flex;
    text-align: center;
    justify-content: center;
    align-items: center;
+   
 }
 
 .botao button {
   color: #7598f8;
   background-color: rgb(231, 231, 231);
   padding: 15px;
+}
+
+footer {
+   text-align: center;
+   padding: 30px;
+   margin-top: 40px;
+}
+
+.redes {
+   margin-top: 10px;
+}
+
+.redes i {
+   font-size: 30px;
+   margin: 10px;
+   color: #7598f8;
+   cursor: pointer;
+   transition: 0.3s;
+}
+
+.redes i:hover {
+   color: black;
+   transform: scale(1.2);
+}
+
+.direitos {
+   color: #7598f8;
 }
