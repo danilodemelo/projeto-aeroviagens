@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("imagens/aeroporto.png");
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+section {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    width: 350px;
+    box-shadow: 0px 10px 25px rgba(0,0,0,0.3);
+}
+
+h1 {
+    text-align: center;
+    color: #7598f8;
+}
+
+label {
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #7598f8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;    
+}
+
+button:hover {
+    background-color: #4c6fe2;
+}
